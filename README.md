@@ -8,9 +8,24 @@
 
 ## Instructions
 
-### Task 1: Project Setup and Submission
+### Task 1: Project Setup
 
-Your assignment page on Canvas should contain instructions for submitting this project. If you are still unsure, reach out to School Staff.
+There are two possible ways to submit your project. Your instructor should have communicated which method to use for this project during the Guided Project and in your cohort's Slack channel. If you are still unsure, reach out to Lambda Staff.
+
+#### Option A - Codegrade
+
+- [ ] Fork and clone the repository.
+- [ ] Open the assignment in Canvas and click on the "Set up git" option.
+- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [ ] Check to see that Codegrade has accepted your git submssion.
+
+#### Option B - Pull Request
+
+- [ ] Fork and clone the repository.
+- [ ] Implement your project in a `firstname-lastname` branch.
+- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
+- [ ] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
@@ -122,12 +137,13 @@ When the client makes a `PUT` request to `/api/users/:id`:
   - respond with HTTP status code `200` (OK).
   - return the newly updated _user document_.
 
-#### Important Notes
+#### Notes
 
-- Test your work manually using Postman or HTTPie. Run automatic tests by executing `npm test`.
 - You are welcome to create additional files but **do not move or rename existing files** or folders.
-- Do not alter your `package.json` file except to install additional libraries or add additional scripts. **Do not update existing libs**.
+- Do not alter your `package.json` file except to install additional libraries or add additional scripts.
 - In your solution, it is essential that you follow best practices and produce clean and professional results.
+- Schedule time to review, refine, and assess your work.
+- Perform basic professional polishing including spell-checking and grammar-checking on your work.
 
 ### Task 3: Stretch Problems
 
